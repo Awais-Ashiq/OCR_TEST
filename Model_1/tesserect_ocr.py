@@ -1,4 +1,3 @@
-from typing import Counter
 import cv2, os
 import pytesseract
 
@@ -7,7 +6,7 @@ def ocr_core(img):
     pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
     text = pytesseract.image_to_string(img)
     return text
-img_pth = [rf"NIC Images/{img}" for img in os.listdir(r'NIC Images/')]
+img_pth = [rf"../NIC Images/{img}" for img in os.listdir(r'../NIC Images/')]
 
 
 

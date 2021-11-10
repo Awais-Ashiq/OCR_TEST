@@ -3,7 +3,7 @@ import os
 
 get = easyocr.Reader(['en'])
 
-img_pth = [rf"NIC Images/{img}" for img in os.listdir('NIC Images/')]
+img_pth = [rf"../NIC Images/{img}" for img in os.listdir(r'../NIC Images/')]
 
 
 for img in img_pth:
