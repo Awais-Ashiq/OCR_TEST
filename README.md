@@ -28,8 +28,8 @@ in this model we have used EasyOcr technique to recognise text in the Nationa id
 You have to install Python first then run the command mentioned bellow.
 
 ```bash
-  git clone -----
-  cd my-project
+  git clone https://github.com/Awais-Ashiq/OCR_TEST.git
+  cd OCR_TEST
 ```
 Now you should install requirements.txt file to install dependencies
 
